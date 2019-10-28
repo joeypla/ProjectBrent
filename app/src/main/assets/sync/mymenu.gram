@@ -1,0 +1,8 @@
+#JSGF V1.0;
+grammar mymenu;
+
+
+public <command> = complete <exercise> <weight>;
+
+<exercise> = bench | pull down | dumb bell;
+<weight> = one | two | three | four | five;
